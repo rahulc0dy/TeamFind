@@ -3,6 +3,7 @@ import {
     nav_brand,
     nav_links,
     nav_link,
+    line,
 } from "../styles/Navbar.module.css";
 
 const Navbar = () => {
@@ -20,6 +21,7 @@ const Navbar = () => {
                     About
                 </a>
             </div>
+            <hr className={line} />
         </nav>
     );
 };

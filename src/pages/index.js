@@ -1,10 +1,6 @@
 import Head from "next/head";
-
-import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-
-import Footer from "@/components/Footer";
 import Layout from "@/components/Layout";
+import LandingPage from "@/components/LandingPage";
 
 export default function Home() {
     return (
@@ -19,6 +15,7 @@ export default function Home() {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
+                <link rel="icon" href="Top-logo.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link
                     rel="preconnect"
@@ -30,9 +27,8 @@ export default function Home() {
                     rel="stylesheet"
                 />
             </Head>
-
             <Layout>
-                <main>hi</main>
+                <LandingPage></LandingPage>
             </Layout>
         </>
     );

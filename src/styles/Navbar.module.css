@@ -6,6 +6,19 @@
     padding: 1rem 2rem;
     max-width: 1650px;
     margin-inline: auto;
+    position: relative;
+}
+
+.line {
+    opacity: 30%;
+    position: absolute;
+    bottom: 0.5rem;
+    right: 2rem;
+    left: 2rem;
+
+    border: 1px solid #fff;
+    border-radius: 1rem;
+    box-shadow: 3px 2px 1em #252525af;
 }
 
 .nav_brand {

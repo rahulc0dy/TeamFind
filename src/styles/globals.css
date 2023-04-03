@@ -22,9 +22,10 @@ body {
 
 /* main content styles */
 
-main {
+.main {
     margin-inline: auto;
     max-width: 1650px;
+    position: relative;
     /* padding: 1rem; */
 }
 
