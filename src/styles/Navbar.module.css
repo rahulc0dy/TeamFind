@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    max-width: 1650px;
+    margin-inline: auto;
+}
+
+.nav_brand {
+    font-size: 2em;
+}
+
+.nav_links {
+    /* width: clamp(5rem, 20%, 50%); */
+
+    display: flex;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+}
