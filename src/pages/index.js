@@ -28,7 +28,7 @@ export default function Home() {
                 />
             </Head>
             <Layout>
-                <LandingPage></LandingPage>
+                <LandingPage />
             </Layout>
         </>
     );

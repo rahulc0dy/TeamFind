@@ -4,8 +4,9 @@ import {
     description,
     clicker,
 } from "../styles/LandingPage.module.css";
+import Login from "./Login";
 
-const LandingPage = ({ children }) => {
+const LandingPage = () => {
     return (
         <div className={landing_page}>
             <h1 className={heading}>
@@ -17,8 +18,7 @@ const LandingPage = ({ children }) => {
                 your idea with you.
             </p>
             <p className={clicker}>Find Your Team</p>
-
-            <div>{children}</div>
+            <Login />
         </div>
     );
 };

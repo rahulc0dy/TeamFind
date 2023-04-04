@@ -1,0 +1,52 @@
+.form_container {
+    width: clamp(20em, 50%, 50em);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 1em;
+    gap: 3em;
+    padding: 4em;
+    grid-area: login;
+    justify-self: center;
+    align-self: center;
+    background-color: #001233;
+    border-radius: 12px;
+}
+.heading {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+.form {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;
+    gap: 2em;
+}
+.form_input {
+    width: 100%;
+    display: block;
+    padding: 0.5em;
+}
+.button {
+    padding: 0.5em 1em;
+    background-color: #158aff;
+    color: var(--text-primary);
+
+    border: none;
+    box-shadow: none;
+    border-radius: 0.2em;
+    display: block;
+    width: 100%;
+
+    text-shadow: 2px 2px 0.5em #222222a1;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+.signup {
+    text-align: center;
+    font-weight: 200;
+    color: var(--text-secondary);
+}
