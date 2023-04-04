@@ -28,7 +28,7 @@ body {
 .main {
     margin-inline: auto;
     max-width: 1650px;
-    position: relative;
+    /* position: relative; */
     min-height: 90vh;
     padding: 1rem;
     display: flex;
