@@ -3,22 +3,29 @@
     margin: 0;
     padding: 0;
     color: #fff;
+
+    /* ---------------------Colors------------------------ */
     --text-primary: #fff;
     --text-secondary: #979dac;
+    --bg-secondary: #222222;
+    --bg-primary-light: #2892fc;
+    --bg-primary-dark: #001845;
+    --bg-light-secondary: #33415c;
 }
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    color: inherit;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #222222;
+    background-color: var(--bg-secondary, #222222);
 }
 
 .fullPage {
-    background-color: #001845;
+    background-color: var(--bg-primary-dark);
     min-height: 100vh;
     min-width: 100%;
 }

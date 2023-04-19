@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>TeamFind</title>
+                <title>TeamFind | Login</title>
                 <meta
                     name="description"
                     content="TeamFind is a place to find and create teams so you can start working on your projects right away."
@@ -15,7 +15,6 @@ export default function Home() {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <link rel="icon" href="Top-logo.png" />
             </Head>
             <Layout>
                 <LandingPage />

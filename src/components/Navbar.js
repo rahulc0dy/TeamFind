@@ -4,7 +4,7 @@ import {
     nav_links,
     nav_link,
     line,
-} from "../styles/Navbar.module.css";
+} from "@/styles/Navbar.module.css";
 
 const Navbar = () => {
     return (

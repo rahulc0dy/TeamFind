@@ -6,7 +6,7 @@ import {
     button,
     signup,
     bggraphic,
-} from "../styles/Login.module.css";
+} from "@/styles/Login.module.css";
 
 const Login = () => {
     return (

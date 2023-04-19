@@ -1,0 +1,52 @@
+/* Page styles */
+.main_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5em;
+    width: 100%;
+    max-width: 1600px;
+}
+
+/* Team creator styles */
+
+.container {
+    background-color: #33415c;
+    padding: 2em;
+    width: 100%;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+
+    background-image: url("../../public/CT-bg.jpg");
+    background-size: contain;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-position: 60%;
+    background-blend-mode: multiply;
+}
+
+.heading_text {
+    font-size: 2.5em;
+    font-weight: 400;
+    max-width: 40%;
+}
+
+.btn {
+    padding: 0.5em 2em;
+    background-color: #158aff;
+    color: var(--text-primary);
+
+    border: none;
+    box-shadow: none;
+    border-radius: 0.3em;
+    display: block;
+
+    text-shadow: 2px 2px 0.5em #222222a1;
+    font-size: 1.5em;
+    font-weight: 200;
+}

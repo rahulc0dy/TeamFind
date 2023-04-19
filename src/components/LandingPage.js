@@ -3,7 +3,7 @@ import {
     heading,
     description,
     clicker,
-} from "../styles/LandingPage.module.css";
+} from "@/styles/LandingPage.module.css";
 import Login from "./Login";
 
 const LandingPage = () => {

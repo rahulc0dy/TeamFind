@@ -29,6 +29,12 @@
     width: 100%;
     display: block;
     padding: 0.5em;
+    background-color: #33415cc0;
+    color: #fff;
+
+    border-radius: 6px;
+    border: 2px solid #979dac;
+    margin-top: 0.5em;
 }
 .button {
     padding: 0.5em 1em;
