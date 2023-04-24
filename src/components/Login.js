@@ -7,6 +7,7 @@ import {
     signup,
     bggraphic,
 } from "@/styles/Login.module.css";
+import Link from "next/link";
 
 const Login = () => {
     return (
@@ -27,7 +28,7 @@ const Login = () => {
                 <p className={signup}>
                     Don't have an account?
                     <br />
-                    <a href="#">Sign Up</a>
+                    <Link href="#">Sign Up</Link>
                 </p>
             </div>
         </>
