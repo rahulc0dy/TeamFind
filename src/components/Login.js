@@ -26,7 +26,7 @@ const Login = () => {
                     <button className={button}>Login</button>
                 </form>
                 <p className={signup}>
-                    Don't have an account?
+                    Don&apos;t have an account?
                     <br />
                     <Link href="#">Sign Up</Link>
                 </p>
