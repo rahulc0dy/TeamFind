@@ -5,21 +5,24 @@ import {
     nav_link,
     line,
 } from "@/styles/Navbar.module.css";
+import Link from "next/link";
 
 const Navbar = () => {
     return (
         <nav className={navbar}>
-            <h2 className={nav_brand}>TeamFind</h2>
+            <h2 className={nav_brand}>
+                <Link href={"/home"}>TeamFind</Link>
+            </h2>
             <div className={nav_links}>
-                <a className={nav_link} href="#">
+                <Link className={nav_link} href="#">
                     Contact
-                </a>
-                <a className={nav_link} href="">
+                </Link>
+                <Link className={nav_link} href="">
                     Team
-                </a>
-                <a className={nav_link} href="">
+                </Link>
+                <Link className={nav_link} href="">
                     About
-                </a>
+                </Link>
             </div>
             <hr className={line} />
         </nav>
