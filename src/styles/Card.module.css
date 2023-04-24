@@ -1,15 +1,56 @@
-/* .card_container {
-    width: 10em;
-    aspect-ratio: 1/1;
-    display: grid;
-    grid-auto-flow: row;
-    gap: 0.5rem;
-    justify-content: space-between;
-    align-items: center;
-    max-height: 5em;
-
-    padding: 1em;
+.card {
+    margin: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(9, 0, 0, 0.5);
+    width: 16.5em;
+    display: inline-block;
 }
+
 .image {
+    height: 7em;
+    width: 16.5em;
+    /* image-rendering: pixelated; */
+    border-image: fill;
+    display: block;
+    border-radius: 5px 5px 0px 0px;
+    box-sizing: border-box;
+
+    background-image: url("../../public/404error.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.description {
+    background-color: var(--bg-secondary, #222222);
+    color: lightgray;
+    padding: 1em;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.h3 {
+    font-weight: 400;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+.p {
+    font-size: 1em;
+    font-weight: 200;
+    color: var(--text-secondary);
+}
+
+.btn {
+    margin-top: 1em;
     width: 100%;
-} */
+    display: block;
+    padding: 0.5em 1em;
+    background-color: rgb(216, 158, 31);
+    align-items: center;
+    color: rgb(220, 213, 213);
+    font-weight: 500;
+    font-size: 1em;
+    text-shadow: 2px 2px 1em var(--bg-secondary);
+    border-radius: 6px;
+    border: none;
+}

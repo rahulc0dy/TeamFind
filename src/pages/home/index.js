@@ -12,6 +12,13 @@ const home = ({ children }) => {
                 <Carousel>
                     <Card />
                     <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
                 </Carousel>
                 <Carousel>
                     <Card />
